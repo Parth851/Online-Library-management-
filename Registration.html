@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        legend{
+            font-size: xxx-large;
+            color: white;
+            background-color: black;
+        }
+        label{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body style="background-color: powderblue;">
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <p>
+                <label>Salutation:
+                <select name="Salutation">
+                    <option>--None--</option>
+                    <option>Mr.</option>
+                    <option>Ms.</option>
+                    <option>Mrs.</option>
+                    <option>Dr.</option>
+                    <option>Prof.</option>
+                </select>
+                </label>
+            </p>
+            <p>
+                <label>First Name:<input name="First Name" /></label><label>Middle Name:<input name="Middle Name" /></label><label>Last Name:<input name="Last Name" /></label>
+            </p>
+            <p style="font-size: x-large; font-weight: bold">
+                Gender:
+                <label><input type="radio" name="gender" value="male"/>Male </label>
+                <label><input type="radio" name="gender" value="female"/>Female </label>
+            </p>
+            <p>
+                <label>Date of Birth:<input type="date" name="birthDate"></label>
+            </p>
+            <p>
+                <label>Age:<input name="Age" /></label>
+            </p>
+            <p>
+                <label>
+                   Address:
+                    <br>
+                    <textarea name="reason" cols="30" rows="3"></textarea>
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                   Interested Books:
+                    <br>
+                    <textarea name="reason" cols="30" rows="3"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>Email:<input type="email" name=""email" /></label>  
+            </p>
+            <p>
+                <label>Phone No:<input name="Phone No" /></label>
+            </p>
+            <p>
+                <label> Password:<input name="Password" /></label>
+                </p>
+            
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+    <h1><strong>Contact Us</strong></h1>
+    <img src="lastimg.jpg">
+    <footer style="color:white;background-color:black; font-size: xxx-large;">
+        <center>2023 Online 99Bookstore. All rights reserved.</center>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <style>
+       
+        h1{
+            text-align: center;
+            font-size: xxx-large;
+            color: white;
+            background-color: black;
+        }
+        h2{
+            font-size: xx-large;
+            text-align: center ;
+        }
+        h3{
+            font-size: x-large;
+        }
+        p{
+            font-size: x-large;
+        }
+        nav{
+            text-align: center;
+        }
+        a{
+            color:black;
+            font-size: xx-large;
+            font-weight: bold;
+            margin-left: 90px;
+        }
+        .container{
+            max: width 1400px;
+            margin-left: 90px;
+            background-color: white;
+            overflow: auto;
+        }
+        .gallery{
+            margin: 5px;
+            border:1px solid #ccc;
+            float:left;
+            width: 390px;
+        }
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+        .desc{
+            padding: 15px;
+            text-align:center;
+        }
+        button{
+          font-size: x-large;
+          color:white;
+          background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: xxx-large;background-color:black;color: white ;"><strong><center>Navrachana University Library</center></strong></h1>
+    <img src="Logo.jpg.png">
+    <header>
+                  <h1>Books Catalog </h1>
+                  <nav>
+                      <a href="#new-releases">New Releases</a>
+                      <a href="#best-sellers">Best Sellers</a>
+                      <a href="#fiction">Fiction</a>
+                      <a href="#nonfiction">Nonfiction</a>
+                  </nav>
+                </header>
+                <main>
+                    <div class="container">
+                            <div class="gallery">
+                  <section id="new-releases">
+                    <h2>New Releases</h2>
+                    <ul> 
+                        <li>
+                     <img src="testaments.jpg" width="400px" height="400px">
+                        <h3>The Testaments</h3>
+                        <p>by Margaret Atwood</p>
+                        <p>ISBN: 978-0385543781</p>
+                        <p>Price: ₹450</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="thewaterdancer.jpg" width="400px" height="400px">
+                        <h3>The Water Dancer</h3>
+                        <p>by Ta-Nehisi Coates</p>
+                        <p>ISBN: 978-0399590597</p>
+                        <p>Price: ₹900</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="theawe.jpg" width="400px" height="400px">
+                        <h3>The Awe of God: The Astounding Way a Healthy Fear of God Transforms Your Life</h3>
+                        <p>by John Bevere</p>
+                        <p>ISBN: 978-0399590597</p>
+                        <p>Price: ₹260</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="unscripted.jpg" width="400px" height="400px">
+                        <h3>Unscripted: The Epic Battle for a Hollywood Media Empire</h3>
+                        <p>by James B. Stewart and Rachel Abrams</p>
+                        <p>ISBN: 978-0399590597</p>
+                        <p>Price: ₹360</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                    </ul>
+                  </section>
+                  </div>
+                  <div class="container">
+                    <div class="gallery">
+                  <section id="best-sellers">
+                    <h2>Best Sellers</h2>
+                    <ul>
+                      <li>
+                        <img src="becoming.jpg" width="400px" height="400px">
+                        <h3>Becoming</h3>
+                        <p>by Michelle Obama</p>
+                        <p>ISBN: 978-1524763138</p>
+                        <p>Price: ₹456</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="thesilentpatient.jpg" width="400px" height="400px">
+                        <h3>The Silent Patient</h3>
+                        <p>by Alex Michaelides</p>
+                        <p>ISBN: 978-1250301697</p>
+                        <p>Price: ₹960</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="spare.jpg" width="400px" height="400px">
+                        <h3>Spare</h3>
+                        <p>by  Prince Harry, Duke of Sussex</p>
+                        <p>ISBN: 978-1250301697</p>
+                        <p>Price: ₹4999</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="richdadpoordad.jpg" width="400px" height="400px">
+                        <h3>Rich Dad Poor Dad Book </h3>
+                        <p>by Robert Kiyosaki and Sharon Lechter</p>
+                        <p>ISBN: 978-1250301697</p>
+                        <p>Price: ₹5800</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                    </ul>
+                  </section>
+                  </div>
+                  <div class="container">
+                    <div class="gallery">
+                  <section id="fiction">
+                    <h2>Fiction</h2>
+                    <ul>
+                      <li>
+                        <img src="thedutchhouse.jpg" width="400px" height="400px">
+                        <h3>The Dutch House</h3>
+                        <p>by Ann Patchett</p>
+                        <p>ISBN: 978-0062963673</p>
+                        <p>Price: ₹1999</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="theoverstory.jpg" width="400px" height="400px">
+                        <h3>The Overstory</h3>
+                        <p>by Richard Powers</p>
+                        <p>ISBN: 978-0393635522</p>
+                        <p>Price: ₹6532</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="thegreatgatsby.jpg" width="400px" height="400px">
+                        <h3>The Great Gatsby</h3>
+                        <p>by F. Scott Fitzgerald</p>
+                        <p>ISBN: 978-0393635522</p>
+                        <p>Price: ₹2356</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li><li>
+                        <img src="janeeyre.jpg" width="400px" height="400px">
+                        <h3>Jane Eyre</h3>
+                        <p>by Charlotte Brontë</p>
+                        <p>ISBN: 978-0393635522</p>
+                        <p>Price: ₹856</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                    </ul>
+                  </section>
+                  </div>
+                  <div class="container">
+                    <div class="gallery">
+                  <section id="nonfiction">
+                    <h2>Nonfiction</h2>
+                    <ul>
+                      <li>
+                        <img src="Sapiensabriefhistoryofhumankind.jpg" width="400px" height="400px">
+                        <h3>Sapiens: A Brief History of Humankind</h3>
+                        <p>by Yuval Noah Harari</p>
+                        <p>ISBN: 978-0062316110</p>
+                        <p>Price: ₹1200</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="incoldblood.jpg" width="400px" height="400px">
+                        <h3>In Cold Blood </h3>
+                        <p>by Truman Capote</p>
+                        <p>ISBN: 978-0062316210</p>
+                        <p>Price: ₹1900</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="theemperor.jpg" width="400px" height="400px">
+                        <h3>The Emperor of All Maladies</h3>
+                        <p>by Siddhartha Mukherjee</p>
+                        <p>ISBN: 978-0062318210</p>
+                        <p>Price: ₹600</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                      <li>
+                        <img src="abriefhistory.jpg" width="400px" height="400px">
+                        <h3>A Brief History of Time</h3>
+                        <p>by Stephen Hawking</p>
+                        <p>ISBN: 978-0062318210</p>
+                        <p>Price: ₹9856</p>
+                        <button type="button" onclick="location.href='shoppingcart.html'">Add to Cart</button>
+                        <button type="button" onclick="location.href='onlinelibrarymanagment.html'">Issue Book</button>
+                      </li>
+                    </div>
+                            </body>
+                          </html>                
